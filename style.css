@@ -1,0 +1,168 @@
+/* body... pretty self explanitory*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shantell Sans';
+    color: #FFFFFF;
+    background-color: #FA8072;
+    overflow-x: hidden;
+}
+
+/* My Navbar*/
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navagation {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #FA8072;
+}
+
+/* Main website stuff*/
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 36px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    line-height: 1.0;
+}
+
+.salmonPic {
+    border: solid 5px white
+}
+
+.biography {
+    text-align: center;
+}
+
+.shopStory {
+    text-align: center;
+}
+
+/* sales table thingies */
+
+form {
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+
+.submit-cookie{
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+}
+
+.sales-button {
+    flex-direction: row;
+    background-color: #FFFFFF;
+    color: #FA8072;
+    border: solid #FA8072;
+    border-radius: 26px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.sales-button:hover {
+    background-color: #FA8072;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* Table stuff*/
+.city-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.city-table th,
+.city-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    border-bottom: 1px solid #ddd;
+}
+
+.city-table th {
+    background-color: #FFFFFF;
+    color: #FA8072;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.city-table td:first-child {
+    font-weight: 600;
+}
+
+.city-table tr:last-child td {
+    border-bottom: none;
+}

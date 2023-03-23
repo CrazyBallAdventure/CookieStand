@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+      </style>
+    <title>Salmon Cookie Shop</title>
 </head>
-<!-- <script>
-    document.write(hoursDemo);
-    document.write(cookieDemo);
-</script> -->
-<body>
-    <ul class="output">
 
-    </ul>
-    <script src="app.js"></script>
+<body>
+    <header>
+        <h1> Pattie's Cookie Shop</h1>
+        <nav>
+            <ul>
+                <li class="navagation"><a href='index.html'>Home</a></li>
+                <li class="navagation"><a href='sales.html'>Sales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box">
+<br><br><br><br><br><br>
+        <ul class="output">
+
+            <!-- Seattle -->
+<br><br>
+            <table class="city-table">
+
+                <tr>
+                    <th></th>
+                    <th>6am</th>
+                    <th>7am</th>
+                    <th>8am</th>
+                    <th>9am</th>
+                    <th>10am</th>
+                    <th>11am</th>
+                    <th>12pm</th>
+                    <th>1pm</th>
+                    <th>2pm</th>
+                    <th>3pm</th>
+                    <th>4pm</th>
+                    <th>5pm</th>
+                    <th>6pm</th>
+                    <th>7pm</th>
+
+                </tr>
+
+                <!-- City 1 -->
+
+                <tr id="tr">
+                    <td>Seattle</td>
+                </tr>
+
+                <!-- City 2 -->
+
+                <tr id="tr2">
+                    <td>Tokyo</td>
+                </tr>
+
+                <!-- City 3 -->
+
+                <tr id="tr3">
+                    <td>Dubai</td>
+                </tr>
+
+                <!-- City 4 -->
+
+                <tr id="tr4">
+                    <td>Paris</td>
+                </tr>
+
+                <!-- City 5 -->
+
+                <tr id="tr5">
+                    <td>Lima</td>
+                </tr>
+
+            
+
+            </table>
+        </ul>
+        <form id="cookieStandForm">
+            <fieldset class="submit-cookie">
+              <legend>Add New Cookie Stand</legend>
+              <div>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+              </div>
+              <button type="submit" class="sales-button">Add Cookie Stand</button>
+            </fieldset>
+          </form>
+          
+        <script src="app.js"></script>
+    </div>
+
 </body>
+
 </html>
